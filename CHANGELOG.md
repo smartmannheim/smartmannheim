@@ -9,9 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - The repository moved to the `smartmannheim` GitHub organization:
   <https://github.com/smartmannheim/smartmannheim>. Documentation and
-  issue tracker links in the manifest point to the new location. The old
-  URL keeps working through GitHub's redirect, but if you added it as a HACS
-  custom repository, switching to the new URL is recommended.
+  issue tracker links in the manifest point to the new location. HACS
+  picks up the move automatically; no action needed.
 - Added @Joshua-lab-dev as codeowner.
 
 ## [0.3.0] - 2026-09-25
