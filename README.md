@@ -187,7 +187,7 @@ The climate API is official and documented. Pollen, air quality and the DWD stat
 
 `custom_components/smartmannheim_klima/station_metadata.json` is a snapshot of the official Mannheim climate-network metadata catalog (211 stations × 80+ attributes per station). It enriches devices and entities with altitude, Local Climate Zone, commissioning date and per-sensor measurement heights. It is matched by sensor code, so it covers the `0101-…` sensors but only a few of the newer `23xxLH/LW` ones.
 
-The snapshot is static and was generated from the official [Metadatenkatalog Klimamessnetz](https://www.smartmannheim.de/wp-content/uploads/2024/03/20240314_Metadatenkatalog_MA_Klimamessnetz.pdf) (xlsx edition). It is not refreshed automatically; after upstream catalog changes it has to be regenerated from the latest xlsx and committed.
+The snapshot is static and was generated from the official Metadatenkatalog Klimamessnetz on the Smart City Mannheim open-data portal, available as [xlsx](https://opendata.smartmannheim.de/dataset/23c48b6a-42b6-44f1-8756-5e83340a6a0a/resource/6ecbb67f-6564-4a46-9c26-a99e6ad5a0c2/download/metadatenkatalog_ma_klimamessnetz.xlsx) (used for the snapshot) and [PDF](https://opendata.smartmannheim.de/dataset/23c48b6a-42b6-44f1-8756-5e83340a6a0a/resource/66930764-9839-40b8-8af4-e76fb8ee3ac0/download/metadatenkatalog_ma_klimamessnetz.pdf). It is not refreshed automatically; after upstream catalog changes it has to be regenerated from the latest xlsx and committed.
 
 ### Sensor snapshot
 
