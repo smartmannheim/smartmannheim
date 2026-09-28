@@ -1,7 +1,7 @@
 {
   "domain": "smartmannheim_klima",
   "name": "Smart City Mannheim",
-  "codeowners": ["@rathlinus"],
+  "codeowners": ["@rathlinus", "@Joshua-lab-dev"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/rathlinus/smartmannheim",
