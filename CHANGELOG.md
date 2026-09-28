@@ -5,6 +5,15 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.1] - 2026-09-28
+### Changed
+- The repository moved to the `smartmannheim` GitHub organization:
+  <https://github.com/smartmannheim/smartmannheim>. Documentation and
+  issue tracker links in the manifest point to the new location. The old
+  URL keeps working through GitHub's redirect, but if you added it as a HACS
+  custom repository, switching to the new URL is recommended.
+- Added @Joshua-lab-dev as codeowner.
+
 ## [0.3.0] - 2026-09-25
 ### Changed — official climate API
 - Climate stations now use the official Smart City Mannheim API
