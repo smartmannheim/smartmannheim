@@ -23,7 +23,7 @@ All three extra data sources (Pollen, AQI, DWD-Station) are **enabled by default
 ### Via HACS (recommended)
 
 1. Open HACS → **Integrations** → menu top right → **Custom repositories**
-2. Enter URL `https://github.com/rathlinus/smartmannheim.git`, Category: **Integration**
+2. Enter URL `https://github.com/smartmannheim/smartmannheim.git`, Category: **Integration**
 3. Search for *Smart City Mannheim* and install
 4. Restart Home Assistant
 
