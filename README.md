@@ -30,7 +30,7 @@ All three extra data sources (Pollen, AQI, DWD-Station) are **enabled by default
 2. Open the integration and click **Download**
 3. Restart Home Assistant
 
-> Added the repository as a custom repository before? You can remove that entry under HACS → ⋮ → **Custom repositories**; the installed integration stays.
+> Added the repository as a custom repository before? Nothing to do: HACS now treats it as a default repository and keeps updating it.
 
 ### Manually
 
