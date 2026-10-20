@@ -1,5 +1,7 @@
 # Smart City Mannheim
 
+[![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://hacs.xyz)
+
 A Home Assistant integration for the public [Smart City Mannheim](https://smartmannheim.de/) data platform — climate stations, pollen forecast, air quality and the official DWD weather station, all directly in your smart home.
 
 ---
@@ -22,10 +24,13 @@ All three extra data sources (Pollen, AQI, DWD-Station) are **enabled by default
 
 ### Via HACS (recommended)
 
-1. Open HACS → **Integrations** → menu top right → **Custom repositories**
-2. Enter URL `https://github.com/smartmannheim/smartmannheim.git`, Category: **Integration**
-3. Search for *Smart City Mannheim* and install
-4. Restart Home Assistant
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=smartmannheim&repository=smartmannheim&category=integration)
+
+1. Open **HACS** and search for *Smart City Mannheim*
+2. Open the integration and click **Download**
+3. Restart Home Assistant
+
+> Added the repository as a custom repository before? You can remove that entry under HACS → ⋮ → **Custom repositories**; the installed integration stays.
 
 ### Manually
 
@@ -36,6 +41,8 @@ All three extra data sources (Pollen, AQI, DWD-Station) are **enabled by default
 ---
 
 ## Setup
+
+[![Open your Home Assistant instance and start setting up Smart City Mannheim.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=smartmannheim_klima)
 
 1. **Settings → Integrations → Add Integration → Smart City Mannheim**
 2. Choose **Nach Sensorcode oder Straße suchen** and enter a sensor code or street (e.g. `0101-001`, `T-050`, `Dammstraße`) — or choose **Alle Sensoren anzeigen** to skip the search
