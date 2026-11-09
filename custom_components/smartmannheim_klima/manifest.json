@@ -1,7 +1,7 @@
 {
   "domain": "smartmannheim_klima",
   "name": "Smart City Mannheim",
-  "categories": ["weather_alerts", "weather_alerts.air_quality_pollen"],
+  "categories": ["weather_alerts.air_quality_pollen"],
   "codeowners": ["@rathlinus", "@Joshua-lab-dev"],
   "config_flow": true,
   "dependencies": [],

@@ -7,8 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.3.4] - 2026-11-09
 ### Changed
-- Manifest lists integration categories (`weather_alerts`,
-  `weather_alerts.air_quality_pollen`) for the HACS / Marketplace catalog.
+- Manifest lists the integration category
+  `weather_alerts.air_quality_pollen` for the HACS / Marketplace catalog.
 - CI: `actions/checkout@v7` and `actions/setup-python@v7` (Node.js 24).
 
 ## [0.3.3] - 2026-11-04
